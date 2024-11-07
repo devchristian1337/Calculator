@@ -209,6 +209,7 @@ function App() {
       document.documentElement.classList.add('dark');
       localStorage.setItem(THEME_KEY, 'dark');
     } else {
+      document.documentElement.classList.add('light');
       localStorage.setItem(THEME_KEY, 'light');
     }
   }, [isDark]);
