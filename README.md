@@ -1,4 +1,4 @@
-# My App
+# Calcolatrice
 
 Un moderno e versatile calcolatore costruito con React, TypeScript e Framer Motion. Presenta un'interfaccia pulita con supporto per la modalità scura e funzioni scientifiche avanzate.
 
