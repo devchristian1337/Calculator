@@ -314,6 +314,9 @@ function App() {
         setDisplay(error instanceof Error ? error.message : 'Error');
         setEquation('');
       }
+    } else if (equation.endsWith(' ')) {
+      // Se l'equazione termina già con un operatore, sostituiscilo
+      setEquation(equation.slice(0, -3) + ' ' + op + ' ');
     } else {
       setEquation((display === '0' ? '0' : display) + ' ' + op + ' ');
       setDisplay('0');
