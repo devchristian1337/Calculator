@@ -186,10 +186,8 @@ function App() {
   const [display, setDisplay] = useState<string>('0')
   const [equation, setEquation] = useState<string>('')
   const [isDark, setIsDark] = useState(() => {
-    // Verifica prima il localStorage
     const saved = localStorage.getItem(THEME_KEY);
     if (saved) return saved === 'dark';
-    // Altrimenti usa le preferenze del sistema
     return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
   const willChange = useWillChange()
@@ -201,10 +199,8 @@ function App() {
   
   // Effetto per sincronizzare il tema
   useEffect(() => {
-    // Rimuovi tutte le classi di tema
     document.documentElement.classList.remove('dark', 'light');
     
-    // Applica il nuovo tema
     if (isDark) {
       document.documentElement.classList.add('dark');
       localStorage.setItem(THEME_KEY, 'dark');
