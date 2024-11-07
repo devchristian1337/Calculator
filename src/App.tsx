@@ -101,7 +101,9 @@ const safeEvaluate = (expression: string): number => {
   // Controllo cache con limite di dimensione
   if (resultCache.size > 100) {
     const firstKey = resultCache.keys().next().value;
-    resultCache.delete(firstKey);
+    if (firstKey !== undefined) {
+      resultCache.delete(firstKey);
+    }
   }
   
   if (resultCache.has(expression)) {
