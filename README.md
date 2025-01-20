@@ -1,6 +1,6 @@
 # Calculator
 
-![alt text](image.png)
+![alt text](https://iili.io/2iTA9jt.png)
 
 A modern and versatile calculator built with React, TypeScript, and Framer Motion. It features a clean interface with dark mode support and advanced scientific functions.
 
