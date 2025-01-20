@@ -1,26 +1,26 @@
-# Calcolatrice
-
-Un moderno e versatile calcolatore costruito con React, TypeScript e Framer Motion. Presenta un'interfaccia pulita con supporto per la modalità scura e funzioni scientifiche avanzate.
+# Calculator
 
 ![alt text](image.png)
 
-## Caratteristiche
+A modern and versatile calculator built with React, TypeScript, and Framer Motion. It features a clean interface with dark mode support and advanced scientific functions.
 
-- 🧮 Calcoli di base e scientifici con opzioni avanzate
-- 🌍 Supporto per la modalità scientifica e semplice
-- 🌓 Modalità Chiara/Scura
-- 📋 Cronologia delle operazioni con funzionalità di copia
-- 💪 Gestione degli errori matematici con messaggi chiari
-- ✨ Animazioni fluide con Framer Motion
-- 📱 Design responsive
-- 🔢 Scorciatoie da tastiera per funzioni scientifiche
-- 🔄 Persistenza delle preferenze utente (tema e modalità)
+## Features
 
-## Stack Tecnologico
+- 🧮 Basic and scientific calculations with advanced options
+- 🌍 Support for scientific and simple mode
+- 🌓 Light/Dark Mode
+- 📋 Operation history with copy functionality
+- 💪 Mathematical error handling with clear messages
+- ✨ Smooth animations with Framer Motion
+- 📱 Responsive design
+- 🔢 Keyboard shortcuts for scientific functions
+- 🔄 User preferences persistence (theme and mode)
+
+## Tech Stack
 
 - React
 - TypeScript
 - Vite
 - Framer Motion
 - Tailwind CSS
-- Lucide React (per le icone)
+- Lucide React (for icons)
